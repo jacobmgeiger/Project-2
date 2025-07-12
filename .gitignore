@@ -1,0 +1,119 @@
+# .gitignore - Excludes survey data files from version control
+# File: .gitignore
+
+# Survey data directories - exclude all year directories
+2019/survey_results_public.csv
+2020/survey_results_public.csv
+2021/survey_results_public.csv
+2022/survey_results_public.csv
+2023/survey_results_public.csv
+2024/survey_results_public.csv
+
+# Alternative: If you want to keep the directory structure but exclude specific file types
+# Uncomment the following lines and comment out the directory exclusions above
+
+# Survey data files by type
+# *.csv
+# *.pdf
+# README_*.txt
+# so_survey_*.pdf
+# *Developer Survey.pdf
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
